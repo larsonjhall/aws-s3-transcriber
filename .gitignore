@@ -1,0 +1,15 @@
+# Local terraform directory
+.terraform/
+
+# State files (CONTAINS SECRETS!)
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Variable definitions
+override.tf
+override.tf.json
+
+# Log files
+*.log
