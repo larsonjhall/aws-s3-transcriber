@@ -1,0 +1,12 @@
+# Local terraform state and plugins
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Sensitive variables
+terraform.tfvars
+
+# Local audio files and transcripts
+*.mp3
+*.json
